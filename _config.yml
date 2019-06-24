@@ -1,0 +1,35 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+markdown: kramdown
+baseurl:             ''
+paginate:            5
+paginate_path: "/page:num/"
+inter_post_navigation: true
+
+# About/contact
+title:               Paul Terzian
+github_username: pterzian
+subtitle:            bioinformatician at MIA Toulouse
+description:         'A blog where I share my trials and understanding of ONT data analysis'
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: "Paul Terzian"
+
+
+# Custom vars
+version:             1.0.0
+
+#Gems
+gems : [jekyll-paginate]
+
+exclude:
+- "/vendor/"
