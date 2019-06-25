@@ -8,9 +8,8 @@ permalink:           pretty
 markdown: kramdown
 baseurl:             ''
 paginate:            5
-paginate_path: "page:num"
+paginate_path: "pterzian.github.io/page:num"
 inter_post_navigation: true
-
 
 
 # About/contact
